@@ -1,0 +1,746 @@
+body {
+	margin: 0 0 0 100px;
+}
+
+a.image,
+a.image img { border: none; }
+
+div#Container {
+	width: 700px;
+	margin-bottom: 30px;
+}
+
+img a {
+	border: 0;
+}
+
+div.content {
+	width: 500px;
+	float: left;
+}
+
+body.chapter div.content {
+	width: auto;
+}
+
+body.essay div.side, body.chapter div.side, body.chapter div.products {
+	float: right;
+	padding: 10px;
+	background-color: #fcc;
+	margin: 170px 0 0 0;
+	width: 175px;
+}
+
+body.essay div.fixed_side {
+  	position: fixed;
+  	top: 80px;
+  	right: 0px;
+}
+
+div.header {
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	margin: 0 0 50px 0;
+	font-size: 12px;
+	height: 21px;
+	font-family: verdana;
+}
+
+body.essay h1, body.chapter h1, body.toc h2 {
+	margin-bottom: 120px;
+	font-style: italic;
+	font-family: georgia;
+	font-size: 26px;
+	clear: both;
+}
+
+body.chapter h1, body.toc h2 {
+	margin-bottom: 25px;
+}
+
+body.chapter h1 span, body.toc h2 span {
+	color: #dcdcdc;
+}
+
+body.essay h2, body.chapter h2 {
+	font-size: 18px;
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-family: georgia;
+}
+
+body.chapter h2 {
+	font-size: 20px;
+}
+
+body.chapter ul {
+	list-style: none;
+	margin: 0 0 120px 0;
+	padding: 0;
+}
+
+body.chapter li {
+	padding-bottom: 0px;
+	margin-left: 15px;
+	font-size: 20px;
+	font-family: georgia;
+}
+
+body.chapter li p {
+	margin: 0 0 15px 0;
+	font-size: 16px;
+}
+
+body.essay ul {
+	font-family: georgia;
+	list-style: none;
+	margin-bottom: 25px;
+	font-size: 18px;
+	line-height: 1.4em;
+}
+
+body.essay li {
+	margin-bottom: 15px;
+}
+
+
+div.quote h3 {
+	border-top: 1px dotted #666;
+	padding-top: 10px;
+	margin-top: 50px;
+	font-weight: normal;
+	font-size: 14px;
+	font-family: georgia;
+	font-style: italic;
+}
+
+p {
+	font-family: georgia;
+	font-size: 18px;
+	line-height: 1.4em;
+	margin-bottom: 25px;
+	margin-top: 0;
+}
+
+div.quote p {
+	font-size: 14px;
+}
+
+cite {
+	font-size: 10px;
+	font-family: georgia;
+	font-weight: bold;
+	float: right;
+	margin-top: -10px;
+	text-align: right;
+}
+
+.quote ul {
+	font-family: georgia;
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+div.header h2 {
+	text-transform: uppercase;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+div.header a:link, div.header a:visited {
+	color: #fff;
+	padding: 3px;
+	text-decoration: none;
+}
+
+div.header a:hover {
+	color: #000;
+	background-color: #fff;
+	text-decoration: none;
+}
+
+div.header a.image:hover {
+	background: none;
+}
+
+div.header h2 span {
+	color: yellow;
+	padding: 0 5px;
+}
+
+div.next {
+	margin: 120px 0;
+	text-align: center;
+	font-size: 14px;
+	font-family: georgia;
+}
+
+div.footer {
+	margin-top: 100px;
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	clear: both;
+}
+
+.highlight  {
+	background-color: #ffc;
+}
+
+/*-------------------------------------------------
+TOC
+-------------------------------------------------*/
+
+body.toc h1 {
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+body.toc p {
+	margin: 0 0 35px 0;
+}
+
+body.toc ul {
+	margin-bottom: 30px;
+}
+
+body.toc li {
+	font-size: 16px;
+	width: 450px;
+}
+
+body.toc li p {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+/*-------------------------------------------------
+HOME
+-------------------------------------------------*/
+
+body.black {
+	background-color: #000;
+}
+
+body.black h1, body.black h2, body.black p {
+	color: #fff;
+}
+
+body.black h1 {
+	font-size: 34px;
+	margin-bottom: 30px;
+}
+
+body.black h1 span {
+	color: yellow;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+body.black h2 {
+	color: #5ba8e4;
+	margin-bottom: 7px;
+	clear: both;
+}
+
+body.black p {
+	font-size: 20px;
+	line-height: 1.5em;
+	margin: 0 0 45px 20px;
+	color: #efefef;
+}
+
+body.black div.side {
+	background-color: #fcc;
+}
+
+body.black p.quote {
+	font-size: 16px;
+	line-height: 1.3em;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+body.black cite {
+	font-size: 14px;
+	color: #999;
+	margin: 0 0 100px 0;
+	font-weight: normal;
+}
+
+body.black div.side {
+	margin: 25px 0;
+}
+
+body.black a:link, body.black a:visited {
+	color: #fff;
+}
+
+body.toc h2 {
+	margin-bottom: 25px;
+}
+
+/*-------------------------------------------------
+SIDEBAR
+-------------------------------------------------*/
+
+div.side p {
+	font-family: verdana;
+	font-size: 12px;
+	margin: 0 0 10px 0;
+}
+
+div.side h2 {
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 1px dotted #999;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+
+div.job {
+	font-family: verdana;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;	
+}
+
+/*-------------------------------------------------
+TOC
+-------------------------------------------------*/
+
+body.hire div#Container {
+	width: 750px;
+}
+
+body.hire div.ad {
+	border-top: 1px solid #ccc;
+	margin-bottom: 30px;
+	padding: 10px 0 0 0;
+}
+
+body.preview div.ad {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+
+body.hire h1 {
+	font-size: 24px;
+	font-style: italic;
+	font-family: georgia;
+	margin-bottom: 5px;
+}
+
+body.hire p {
+	margin: 0 0 50px 0;
+}
+
+body.hire table h1 {
+	font-family: helvetica;
+	font-size: 24px;
+	margin: 0 0 3px 0;
+	padding: 0;
+	font-style: normal;
+}
+
+body.hire table h2 {
+	font-family: helvetica;
+	font-size: 16px;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+body.hire table h3 {
+	font-family: helvetica;
+	font-size: 14px;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+body.hire table td {
+	vertical-align: top;
+}
+
+body.hire table td.badge {
+	padding-right: 20px;
+}
+
+body.hire table p {
+	font-size: 16px;
+	margin: 0;
+}
+
+body.hire table td.badge p {
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+body.hire div.post {
+	float: right;
+	border: 1px solid #ccc;
+	background-color: #ffc;
+	padding: 5px;
+	margin-left: 30px;
+	width: 175px;
+	font-size: 11px;
+	line-height: 1.3em;
+	font-family: verdana;
+}
+
+/*-------------------------------------------------
+FOOTER
+-------------------------------------------------*/
+
+div#footer table {
+	width: 700px;
+}
+
+div#footer table td {
+	vertical-align: top;
+	padding-right: 20px;
+}
+
+div#footer {
+	margin-top: 100px;
+	background-color: #fff;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	color: #000;
+	padding: 30px 0 30px 30px;
+	clear: both;
+	background-color: #edf3fe;
+}
+
+div#footer h1 {
+	font-size: 22px;
+	font-family: georgia;
+	font-style: italic;
+	margin: 0 0 5px 0;
+}
+
+div#footer table h2 {
+	line-height: 1.4em;
+	margin: 0;
+	font-style: normal;
+	font-size: 20px;
+	font-family: georgia;
+}
+
+div#footer table h2 span {
+	color: #999;
+	font-weight: normal;
+	font-size: 16px;
+	font-style: italic;
+}
+
+div#footer table p {
+	margin: 0 0 15px 0;
+	font-size: 18px;
+}
+
+div#footer table p.quote {
+	font-size: 14px;
+	margin-left: 20px;
+	margin-bottom: 25px;
+}
+
+div#footer table td.note {
+	font-size: 11px;
+	padding: 20px 0 0 0;
+	font-family: verdana;
+	margin: 0;
+	line-height: 1.4em;
+}
+
+div.copyright {
+	font-size: 11px;
+	font-family: verdana;
+	padding: 20px 100px 20px 0;
+}
+
+/*-------------------------------------------------
+COOKING/SUCCESS
+-------------------------------------------------*/
+
+div.cook {
+	margin: 50px 0;
+	background-color: #ffc;
+	border-top: 1px solid orange;
+	border-bottom: 1px solid orange;
+	padding: 10px;
+}
+
+div.cook h2 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	color: purple;
+	font-family: helvetica;
+	font-size: 24px;
+	line-height: 1.2em;
+}
+
+div.ready h2 {
+	color: green;
+}
+
+div.ready h2 a:link, div.ready h2 a:visited {
+	color: #30c;
+}
+
+div.ready h2 a:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+div.cook p {
+	margin: 0;
+	padding: 0;
+}
+
+/*-------------------------------------------------
+ERRORS
+-------------------------------------------------*/
+
+div.errors {
+	padding: 5px;
+	border: 1px solid red;
+	width: 500px;
+	margin-bottom: 20px;
+	background-color: red;
+}
+
+div.errors h2 {
+	font-size: 18px;
+	font-family: helvetica, arial, sans-serif;
+	padding: 0; margin: 0;
+	color: white;
+}
+
+/*-------------------------------------------------
+FORM
+-------------------------------------------------*/
+
+dl, dd, dt {
+	margin: 0;
+	font-family: helvetica;
+}
+
+dt {
+	margin: 0 0 1px 0;
+	font-weight: bold;
+}
+
+dt.error {
+	color: red;
+}
+
+dt span {
+	color: #999;
+	font-weight: normal;
+}
+
+
+dt.break {
+	border-top: 1px dashed brown;
+	padding-top: 10px;
+	margin-top: 40px;
+}
+
+dt.end {
+	padding-top: 10px;
+	border-top: 1px solid green;
+	margin-top: 40px;
+}
+
+dd.end {
+	padding-bottom: 10px;
+	border-bottom: 1px solid green;
+	margin-bottom: 40px;
+}
+
+dd {
+	margin: 0 0 15px 0;
+}
+
+dd textarea {
+	width: 500px;
+	height: 150px;
+}
+
+dd input {
+	width: 400px;
+	padding: 3px;
+	font-size: 16px;
+}
+
+dd input.auto {
+	width: auto;
+}
+
+dt small {
+	font-weight: normal;
+}
+
+/*-------------------------------------------------
+DETAILS BOX
+-------------------------------------------------*/
+
+div.details {
+	float: right;
+	width: 200px;
+	border: 1px solid orange;
+	background-color: #ffc;
+	padding: 7px;
+	font-size: 12px;
+	font-family: verdana;
+	line-height: 1.4em;
+}
+
+/*-------------------------------------------------
+PRODUCT TABLE, BOOK TABLE
+-------------------------------------------------*/
+
+div.buybookform {
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+div.producttable {
+	text-align: center;
+	font-family: verdana;
+}
+
+div.producttable img, div.booktable img {
+	border: none;
+	margin-bottom: 5px;
+	background-color: #fff;
+}
+
+body.newhome div.booktable table td a.nohover:hover {
+	background-color: #fff;
+}
+
+div.producttable a:hover {
+	background-color: #fff;
+}
+
+div.producttable table {
+  width: 726px;
+  margin-bottom: 10px;
+}
+
+div.producttable table td, div.booktable table td {
+  width: 199px;
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+
+div.producttable table td h2 a {
+  color: #036;
+}
+
+div.producttable table td h2 a:hover {
+  color: #fff;
+}
+
+div.producttable table tr.for td, div.booktable table tr.for td {
+  width: 199px;
+  padding: 1px;
+  text-align: center;
+  line-height: 14px;
+  font-size: 11px;
+  color: red;
+  font-weight: bold;
+}
+
+div.producttable table tr.for td span {
+  color: #666;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+div.producttable table h2 {
+  color: #393;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+div.producttable table p {
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+ul.tight li {
+	list-style: none;
+	margin-bottom: 0;
+}
+
+p.nogap {
+	margin-top: .2em;
+}
+
+/*-------------------------------------------------
+PRODUCT TABLE, BOOK TABLE
+-------------------------------------------------*/
+
+div.productsSide {
+	float: right;
+	padding: 10px;
+	background-color: #fff;
+	margin: 100px 0 0 0;
+	width: 250px;
+}
+
+div.productsSide table td {
+	vertical-align: top;
+	font-size: 11px;
+	font-family: verdana;
+	line-height: 1.4em;
+	padding: 0 5px 15px 0;
+}
+
+div.productsSide a img {
+	border: 0;
+}
+
+div.productsSide h3 {
+	font-size: 12px;
+	font-family: verdana;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 3px;
+}
+
+/*-------------------------------------------------
+SINGLE PAGE VERSION
+-------------------------------------------------*/
+
+hr { margin-top: 80px; height: 2px; background-color: #000; }
+
+h2.chapter_title {
+	margin-bottom: 25px;
+	color: #c00;
+	font-style: italic;
+	font-family: georgia;
+	font-size: 26px;
+	clear: both;
+}
+
+h2.chapter_title span {
+	color: #dcdcdc;
+}
+
+ul.chapters span {
+	color: #999;
+}
+
